@@ -1,5 +1,5 @@
 import $ from "./jq.js"
 
 $(() => {
-    console.log('JQ is loaded safely! ', $.fn.version);
+    console.log('JQ is loaded safely! ', $.fn.jquery);
 });
