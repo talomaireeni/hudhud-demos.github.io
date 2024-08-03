@@ -1,1 +1,5 @@
-console.log('i am here')
+import $ from "./jq.js"
+
+$(() => {
+    console.log('JQ is loaded!');
+});
