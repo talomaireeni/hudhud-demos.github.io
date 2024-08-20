@@ -1,9 +1,9 @@
-import $ from './vendor/jquery.js';
-import HudhudWidget from './HudhudWidgetApp.js';
+import $ from 'jquery.js';
+import HudhudWidget from 'HudhudWidgetApp.js';
 
 $(() => {
-    $('head').append(`<link rel="stylesheet" type="text/css" href="https://e6577665-f052-458b-b434-127ba8b5c699-00-2j0ymbufojz3x.spock.replit.dev/css/iconoir.css">`);
-    $('head').append(`<link rel="stylesheet" type="text/css" href="https://e6577665-f052-458b-b434-127ba8b5c699-00-2j0ymbufojz3x.spock.replit.dev/css/hudhud-widget-styles.css">`);
+    $('head').append(`<link rel="stylesheet" type="text/css" href="iconoir.css">`);
+    $('head').append(`<link rel="stylesheet" type="text/css" href="hudhud-widget-styles.css">`);
     const widget = new HudhudWidget('#506da5', '#c7ced9', 1, ['ar', 'en'], 'ar', 'right', 'https://pbs.twimg.com/profile_images/1755218698686599168/oQzekdiA_400x400.jpg', 'المساعد الذكي', 'لخدمات السجل العيني', 'التسجيل العيني');
 
     widget.renderWidget();
