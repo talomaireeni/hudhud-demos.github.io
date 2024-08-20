@@ -4,7 +4,7 @@ import HudhudWidget from './HudhudWidgetApp.js';
 $(() => {
     $('head').append(`<link rel="stylesheet" type="text/css" href="iconoir.css">`);
     $('head').append(`<link rel="stylesheet" type="text/css" href="hudhud-widget-styles.css">`);
-    const widget = new HudhudWidget('#506da5', '#c7ced9', 1, ['ar', 'en'], 'ar', 'right', 'https://pbs.twimg.com/profile_images/1755218698686599168/oQzekdiA_400x400.jpg', 'المساعد الذكي', 'لخدمات السجل العيني', 'التسجيل العيني');
+    const widget = new HudhudWidget('#211259', '#00ccfa', 1, ['ar', 'en'], 'ar', 'right', 'https://pbs.twimg.com/profile_images/1256269104941600771/-7gOH9hE_400x400.jpg', 'المساعد الذكي', 'لحلول تحليل البيانات والذكاء الاصطناعي', 'علم - حلول تحليل البيانات والذكاء الاصطناعي');
 
     widget.renderWidget();
     setTimeout(() => {
