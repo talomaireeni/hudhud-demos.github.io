@@ -1,5 +1,5 @@
-import $ from './vendor/jquery.js';
-import HudhudWidgetLocalization from './HudhudWidgetLocalization.js';
+import $ from 'jquery.js';
+import HudhudWidgetLocalization from 'HudhudWidgetLocalization.js';
 class HudhudWidget {
     constructor(primaryColor, secondaryColor, size, supportedLanguages = ['ar', 'en'], defaultLanguage = 'ar', position = 'right', logoUrl, titleText, subtitleText, footerText) {
         this.injectInlineStyles(primaryColor, secondaryColor, size);
