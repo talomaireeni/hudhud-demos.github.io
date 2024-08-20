@@ -1,5 +1,5 @@
-import $ from 'jquery.js';
-import HudhudWidget from 'HudhudWidgetApp.js';
+import $ from './jquery.js';
+import HudhudWidget from './HudhudWidgetApp.js';
 
 $(() => {
     $('head').append(`<link rel="stylesheet" type="text/css" href="iconoir.css">`);
